@@ -2,8 +2,8 @@
 
 function forEach(array, operation) {
   // Start coding here
-  for (let newBase in array) {
-    operation(array[newBase]);
+  for (let newBase of array) {
+    operation(newBase);
   }
 }
 
